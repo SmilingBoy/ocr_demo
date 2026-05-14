@@ -187,7 +187,6 @@
       "project": {
         "compilerSettingsCacheFolder": "E:\\AndroidWork\\android_ocr_demo\\.cxx",
         "cxxFolder": "E:\\AndroidWork\\android_ocr_demo\\.cxx",
-        "ideBuildTargetAbi": "arm64-v8a",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,

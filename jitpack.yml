@@ -1,15 +1,8 @@
 jdk:
   - openjdk8
 
-before_install:
-  - sdk install java 8.0.302-open
-  - sdk use java 8.0.302-open
-
 install:
   - ./gradlew clean :ocr-sdk:assembleRelease
-
-env:
-  - ANDROID_HOME=/opt/android-sdk-linux
 
 before_script:
   - chmod +x gradlew
