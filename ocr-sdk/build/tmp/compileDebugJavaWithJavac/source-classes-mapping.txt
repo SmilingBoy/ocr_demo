@@ -1,0 +1,17 @@
+com/baidu/paddle/ocr/BuildConfig.java
+ com.baidu.paddle.ocr.BuildConfig
+com/baidu/paddle/ocr/config/OCRConfig.java
+ com.baidu.paddle.ocr.config.OCRConfig
+com/baidu/paddle/ocr/core/Predictor.java
+ com.baidu.paddle.ocr.core.Predictor
+com/baidu/paddle/ocr/PaddleOCR.java
+ com.baidu.paddle.ocr.PaddleOCR
+com/baidu/paddle/ocr/core/OCRPredictorNative.java
+ com.baidu.paddle.ocr.core.OCRPredictorNative
+ com.baidu.paddle.ocr.core.OCRPredictorNative$Config
+com/baidu/paddle/ocr/core/OcrResultModel.java
+ com.baidu.paddle.ocr.core.OcrResultModel
+com/baidu/paddle/ocr/model/OCRResult.java
+ com.baidu.paddle.ocr.model.OCRResult
+com/baidu/paddle/ocr/core/Utils.java
+ com.baidu.paddle.ocr.core.Utils

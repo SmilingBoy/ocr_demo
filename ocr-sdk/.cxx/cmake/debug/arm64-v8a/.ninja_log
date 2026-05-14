@@ -1,0 +1,12 @@
+# ninja log v5
+100	5350	800455719	CMakeFiles/Native.dir/predictor_output.cpp.o	62e86506f5b55418
+69	5353	800455719	CMakeFiles/Native.dir/predictor_input.cpp.o	a3b4899f4f19b3e4
+91	5498	800455719	CMakeFiles/Native.dir/ppredictor.cpp.o	5ac4fdcb924b608b
+37	6942	800455720	CMakeFiles/Native.dir/ocr_db_post_process.cpp.o	c859909cf841ccdb
+9	7962	800455721	CMakeFiles/Native.dir/ocr_clipper.cpp.o	ba8684073824e275
+80	8112	800455722	CMakeFiles/Native.dir/preprocess.cpp.o	7c31d14bf2473846
+28	8311	800455722	CMakeFiles/Native.dir/ocr_cls_process.cpp.o	c9dde6abe9603f8
+18	8398	800455722	CMakeFiles/Native.dir/ocr_crnn_process.cpp.o	53168596fea5bb7d
+59	8569	800455722	CMakeFiles/Native.dir/ocr_ppredictor.cpp.o	17af842c12a897d9
+1	8587	800455722	CMakeFiles/Native.dir/native.cpp.o	e0c54e89f8183ba2
+8588	9775	800455723	E:/AndroidWork/android_ocr_demo/ocr-sdk/build/intermediates/cmake/debug/obj/arm64-v8a/libNative.so	5a3c2165fec8a0d3
