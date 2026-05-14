@@ -1,6 +1,7 @@
 import java.security.MessageDigest
 
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion 29
@@ -86,3 +87,17 @@ task downloadAndExtractArchives(type: DefaultTask) {
     }
 }
 preBuild.dependsOn downloadAndExtractArchives
+
+// JitPack 发布配置
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.SmilingBoy'
+                artifactId = 'ocr-sdk'
+                version = '1.0.0'
+            }
+        }
+    }
+}

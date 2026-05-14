@@ -1,3 +1,0 @@
-E:/temp/PaddleOCR-3.5.0/deploy/android_demo/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/Native.dir
-E:/temp/PaddleOCR-3.5.0/deploy/android_demo/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
-E:/temp/PaddleOCR-3.5.0/deploy/android_demo/app/.cxx/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
