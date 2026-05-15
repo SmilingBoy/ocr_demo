@@ -92,11 +92,11 @@ preBuild.dependsOn downloadAndExtractArchives
 afterEvaluate {
     publishing {
         publications {
-            release(MavenPublication) {
-                from components.release
+            maven(MavenPublication) {
                 groupId = 'com.github.SmilingBoy'
                 artifactId = 'ocr-sdk'
-                version = '1.0.0'
+                version = project.hasProperty('version') ? project.getProperty('version') : '1.0.0'
+                from components.release
             }
         }
     }
